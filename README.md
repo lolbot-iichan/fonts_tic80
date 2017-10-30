@@ -22,8 +22,10 @@ See https://tic.computer/play?cart=263 to try them in action.
 |--------|------|
 | ![Hebrew font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/hebrew.png?raw=true) | ![Hebrew Bold font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/hebrew_bold.png?raw=true) |
 
-## Greek font
-![Greek font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/greek.png?raw=true)
+## Greek&Math font
+| Normal | Lower-case |
+|--------|------|
+| ![Greek font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/greek.png?raw=true) | ![Greek Lower-case font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/greek_math.png?raw=true) |
 
 ## Slavic Runic font
 ![Slavic Runic font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/runic_slavic.png?raw=true)
