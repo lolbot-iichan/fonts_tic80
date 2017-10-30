@@ -56,18 +56,18 @@ LBFONTCOLOR = 15
 LBSPACEWIDTH= 5
 LBLINESTEP  = 7
 LBFONTS = {
- a = 17,
- b = 23,
- c = 97,
- d = 103,
- e = 177,
- f = 183,
- g = 273,
- h = 279,
- i = 353,
- j = 359,
- k = 433,
- l = 439,
+ a = 17,  -- Cyrillic
+ b = 97,  -- Cyrillic Bold
+ c = 22,  -- Latin
+ d = 102, -- Latin Bold
+ e = 27,  -- Hebrew 
+ f = 107, -- Hebrew Bold
+ g = 177, -- Greek
+ h = 182, -- Greek & Math
+ i = 273, -- Japanese Katakana
+ j = 278, -- Japanese Hiragana
+ k = 283, -- Japanese Other
+ l = 353, -- Runic Slavic
 }
 LBFONTMOD   = {
  ["$"]={0,-1},
@@ -131,7 +131,7 @@ LANG={
     id = "Russian",
     linestep = 7,
     spacing = 5,
-    offset = 17,
+    offset = LBFONTS.a,
     samples = {
       {"SXEW- EW_E() JTIH M@GKIH FRANC_U3SKIH BULOK,|  DA VYPEI' ZE 4AQ;",0,62},
       {"BYSTRA@ RYZA@ LISA PEREPRYGNULA 4ERE3|  LENIVUQ SOBAKU...",0,80},
@@ -143,7 +143,7 @@ LANG={
     id = "Russian Bold",
     linestep = 7,
     spacing = 5,
-    offset = 23,
+    offset = LBFONTS.b,
     samples = {
       {"SXEW- EW_E() JTIH M@GKIH FRANC_U3SKIH BULOK,|  DA VYPEI' ZE 4AQ;",0,62},
       {"BYSTRA@ RYZA@ LISA PEREPRYGNULA 4ERE3|  LENIVUQ SOBAKU...",0,80},
@@ -155,7 +155,7 @@ LANG={
     id = "Old-Slavic and Ukranian",
     linestep = 7,
     spacing = 5,
-    offset = 17,
+    offset = LBFONTS.a,
     samples = {
       {"NO4I VX PL@SKAHX, VO3L/'@N-@HX",0,70},
       {"DA UT+(HAHX PLOTSKIHX,",118,80},
@@ -167,7 +167,7 @@ LANG={
     id = "Old-Slavic and Ukranian Bold",
     linestep = 7,
     spacing = 5,
-    offset = 23,
+    offset = LBFONTS.b,
     samples = {
       {"NO4I VX PL@SKAHX, VO3L/('@N-@HX",0,70},
       {"DA UT+('HAHX PLOTSKIHX,",118,80},
@@ -179,7 +179,7 @@ LANG={
     id = "English",
     linestep = 7,
     spacing = 5,
-    offset = 97,
+    offset = LBFONTS.c,
     samples = {
       {"HOW I WANT A DRINK, ALCOHOLIC OF COURSE,|  AFTER THE HEAVY LECTURES INVOLVING|  O_UANTUM MECHANICS..",0,62},
       {"JACKDAWS LOVE MY BIG SPHINX OF O_UARTZ.",0,88},
@@ -191,7 +191,7 @@ LANG={
     id = "English Bold",
     linestep = 7,
     spacing = 5,
-    offset = 103,
+    offset = LBFONTS.d,
     samples = {
       {"HOW I WANT A DRINK, ALCOHOLIC OF COURSE,|  AFTER THE HEAVY LECTURES INVOLVING|  O_UANTUM MECHANICS..",0,62},
       {"JACKDAWS LOVE MY BIG SPHINX OF O_UARTZ.",0,88},
@@ -203,7 +203,7 @@ LANG={
     id = "Espanol",
     linestep = 7,
     spacing = 5,
-    offset = 97,
+    offset = LBFONTS.c,
     samples = {
       {"O_UIERE LA BOCA EXHAUSTA VID, KIWI PIN'A|  Y FUGAZ JAMO'N.",0,62},
       {"WHISKY BUENO:|         /EXCITAD MI FRA'GIL PEO_UEN'A;",0,81},
@@ -214,7 +214,7 @@ LANG={
     id = "Espanol Bold",
     linestep = 7,
     spacing = 5,
-    offset = 103,
+    offset = LBFONTS.d,
     samples = {
       {"O_UIERE LA BOCA EXHAUSTA VID, KIWI PIN'A|  Y FUGAZ JAMO'N.",0,62},
       {"WHISKY BUENO:|         /EXCITAD MI FRA'GIL PEO_UEN'A;",0,81},
@@ -225,7 +225,7 @@ LANG={
     id = "Greek Upper-Case",
     linestep = 7,
     spacing = 5,
-    offset = 177,
+    offset = LBFONTS.g,
     samples = {
       {"CESKEPA)ZW THN' VYXOFQO)RA BDELYGMI)A.",8,80},
       {"DY/DX = 2A@X + 12@B",8,100},
@@ -235,19 +235,19 @@ LANG={
     id = "Greek Lower-Case & Math",
     linestep = 6,
     spacing = 4,
-    offset = 183,
+    offset = LBFONTS.h,
     samples = {
-      {"C_ESKEPA#ZW THN' VYXOFQO)RA B[D')ELYGMI)Ae.",8,80},
-      {"fP e= 3,141592653589793238462643383279f:",8,100},
-      {"f@-eX = S  Xf-Ie/fIe; = 1 + X + Xf-e2/2 + Xf-e3/6 + f:e",0,120},
-      {"f8|e0",39,117},
+      {"C_ESKEPA#ZW THN' VYXOhQO)RA B[D')ELYGMI)Ag.",8,80},
+      {"hP g= 3,141592653589793238462643383279h:",8,100},
+      {"h@-gX = S  Xh-Ig/hIg; = 1 + X + Xh-g2/2 + Xh-g3/6 + h:g",0,120},
+      {"h8|g0",39,117},
     }
   },
   {
     id = "Hebrew",
     linestep = 7,
     spacing = 5,
-    offset = 273,
+    offset = LBFONTS.e,
     samples = {
       {"                  16 16 :Z=T, Z=T UVMW",4,75},
       {"WIA , VNMM VTQ[L( , EVEI EVC RWA RBDE EZ",4,90},
@@ -259,7 +259,7 @@ LANG={
     id = "Hebrew Bold",
     linestep = 7,
     spacing = 5,
-    offset = 279,
+    offset = LBFONTS.f,
     samples = {
       {"                  16 16 :Z=T, Z=T UVMW",4,75},
       {"WIA , VNMM VTQ[L( , EVEI EVC RWA RBDE EZ",4,90},
@@ -271,7 +271,7 @@ LANG={
     id = "Runic",
     linestep = 7,
     spacing = 5,
-    offset = 439,
+    offset = LBFONTS.l,
     samples = {
       {"HOW I WANT A DRINK, ALCOHOLIC OF COURSE,|  AFTER THE HEAVY LECTURES INVOLVING|  QUANTUM MECHANICS..",0,62},
       {"JACKDAWS LOVE MY BIG SPHINX OF QUARTZ.",0,88},
@@ -283,7 +283,7 @@ LANG={
     id = "Hiragana",
     linestep = 8,
     spacing = 6,
-    offset = 359,
+    offset = LBFONTS.j,
     samples = {
       {"+' 0 5' : ? D I' N Q) V",0,70},
       {", 1 6 ;' @ E J   R Y",0,79},
@@ -304,7 +304,7 @@ LANG={
     id = "Katakana",
     linestep = 8,
     spacing = 6,
-    offset = 353,
+    offset = LBFONTS.i,
     samples = {
 --       akasatanahamayarawa
       {"+ 0 5 :( ? D I N Q V",0,70}, --a
@@ -326,7 +326,7 @@ LANG={
     id = "Basic Kanji and Punctuation",
     linestep = 8,
     spacing = 6,
-    offset = 433,
+    offset = LBFONTS.k,
     samples = {
       {" 2B^[_2/#+7O(]|A   5|B^[_   6|C   7|D 1 8|E 2 9|F'^[`]_ 3 1+|G 4 1+1",0,64},
       {"2/#6L()'$#^[`]_MNj0k-jH6,,:k-j?k?;",60,70},
@@ -478,8 +478,8 @@ function TIC()
     lbprint("bPRIVET, MIR;",20,20)
     lbprint("c/HOLA, MUNDO;",60,60)
     lbprint("dHELLO, WORLD;",120,35)
-    lbprint("eGEIA) SOY, KO'SME;",110,80)
-    lbprint("g;OL(VJ OVL(W",170,110)
+    lbprint("gGEIA) SOY, KO'SME;",110,80)
+    lbprint("e;OL(VJ OVL(W",170,110)
     lbprint("iDUkK:iVkKiS>k-",160,15)
     LBLINESTEP  = 8
     lbprint("j4|X|@|;'|D|k,j|8|0|,|k;",10,45)
