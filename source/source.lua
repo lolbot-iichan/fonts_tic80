@@ -168,10 +168,10 @@ LANG={
 				spacing = 5,
     offset = 23,
     samples = {
-      {"NO4I VX PL@SKAHX, VO3L/')@N-@HX",0,70},
+      {"NO4I VX PL@SKAHX, VO3L/('@N-@HX",0,70},
       {"DA UT+('HAHX PLOTSKIHX,",118,80},
-      {"NOVYE M/')RY SUL@TX VAMX GRE()3Y KISLOVODSKA;;;",0,90},
-      {"4U=W /(#H, DOC_Q, GA?|  KUMEDNA Z TI, PROW_AI'S@ BE3 G#OL-F/')V;",0,110},
+      {"NOVYE M/('RY SUL@TX VAMX GRE()3Y KISLOVODSKA;;;",0,90},
+      {"4U=W /$)H, DOC_Q, GA?|  KUMEDNA Z TI, PROW_AI'S@ BE3 G#OL-F/')V;",0,110},
     }
   },
   {
