@@ -1,9 +1,11 @@
 # fonts_tic80
-This projects features a 5x5 font editor for Fantasy console [TIC-80](http://tic.computer) written in Lua and some fonts developed specially for this project.
+This projects features a 5x5 font editor for Fantasy console [TIC-80](http://tic.computer) written in Lua and some fonts created specially for this project.
 
 Key ideas of those fonts:
 * **5x7 size, trying to keep glyphs as 5x5 if possible** - one line of pixel pixels is allowed below baseline, one - above the x-height. 
 * **transliteration** - line is readable in English (e.g. Aleph=A, Gamma=G, etc). Does not apply to Japanese.
+
+See https://tic.computer/play?cart=263 to try them in action.
 
 ## Ciryllic fonts
 | Normal | Bold |
