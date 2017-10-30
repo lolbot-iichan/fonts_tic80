@@ -32,3 +32,10 @@ See https://tic.computer/play?cart=263 to try them in action.
 | Katakana | Hiragana | Other | 
 |----------|----------|-------|
 | ![Katakana font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/japanese_katakana.png?raw=true) | ![Hiragana font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/japanese_hiragana.png?raw=true) | ![Japanese Other font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/japanese_other.png?raw=true) |
+|		ア		イ		ウ		エ		オ		カ		キ		ク	| | | 
+|		ケ		コ		サ		シ		ス		セ		ソ		タ | | | 
+|		チ		ツ		テ		ト		ナ		ニ		ヌ		ネ | | | 
+|		ノ		ハ		ヒ		フ		ヘ		ホ		マ		ミ | | | 
+|		ム		メ		モ		ヤ		ユ		ヨ		ラ		リ | | | 
+|		ル		レ		ロ		ワ		ヲ		ン| | |
+|		Archaic characters: ヰ		ヱ| | |
