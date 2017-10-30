@@ -67,6 +67,7 @@ LBFONTS = {
  i = 353,
  j = 359,
  k = 433,
+ l = 439,
 }
 LBFONTMOD   = {
  ["$"]={0,-1},
@@ -100,13 +101,13 @@ function lbprint(str,x,y)
   if m ~= nil then
    clip()
    pix(X+m[1],y+m[2],LBFONTCOLOR)
-		elseif c == "|" then
+  elseif c == "|" then
    X,y = x-6,y+LBLINESTEP
   elseif c == " " then
    X = X+LBSPACEWIDTH
   elseif c >= "a" then
    LBFONTSTART = LBFONTS[c]
-		else
+  else
    X = X+6
    lbfont5x5(string.byte(c)-43,X,y)
   end
@@ -128,8 +129,8 @@ end
 LANG={
   {
     id = "Russian",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 17,
     samples = {
       {"SXEW- EW_E() JTIH M@GKIH FRANC_U3SKIH BULOK,|  DA VYPEI' ZE 4AQ;",0,62},
@@ -140,8 +141,8 @@ LANG={
   },
   {
     id = "Russian Bold",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 23,
     samples = {
       {"SXEW- EW_E() JTIH M@GKIH FRANC_U3SKIH BULOK,|  DA VYPEI' ZE 4AQ;",0,62},
@@ -152,8 +153,8 @@ LANG={
   },
   {
     id = "Old-Slavic and Ukranian",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 17,
     samples = {
       {"NO4I VX PL@SKAHX, VO3L/'@N-@HX",0,70},
@@ -164,8 +165,8 @@ LANG={
   },
   {
     id = "Old-Slavic and Ukranian Bold",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 23,
     samples = {
       {"NO4I VX PL@SKAHX, VO3L/('@N-@HX",0,70},
@@ -176,8 +177,8 @@ LANG={
   },
   {
     id = "English",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 97,
     samples = {
       {"HOW I WANT A DRINK, ALCOHOLIC OF COURSE,|  AFTER THE HEAVY LECTURES INVOLVING|  O_UANTUM MECHANICS..",0,62},
@@ -188,8 +189,8 @@ LANG={
   },
   {
     id = "English Bold",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 103,
     samples = {
       {"HOW I WANT A DRINK, ALCOHOLIC OF COURSE,|  AFTER THE HEAVY LECTURES INVOLVING|  O_UANTUM MECHANICS..",0,62},
@@ -200,8 +201,8 @@ LANG={
   },
   {
     id = "Espanol",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 97,
     samples = {
       {"O_UIERE LA BOCA EXHAUSTA VID, KIWI PIN'A|  Y FUGAZ JAMO'N.",0,62},
@@ -211,8 +212,8 @@ LANG={
   },
   {
     id = "Espanol Bold",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 103,
     samples = {
       {"O_UIERE LA BOCA EXHAUSTA VID, KIWI PIN'A|  Y FUGAZ JAMO'N.",0,62},
@@ -221,20 +222,31 @@ LANG={
     }
   },
   {
-    id = "Greek and Math",
-				linestep = 7,
-				spacing = 5,
+    id = "Greek Upper-Case",
+    linestep = 7,
+    spacing = 5,
     offset = 177,
     samples = {
-      {"CESKEPA)ZW THN( VYXOFQO)RA BDELYGMI)A.",8,80},
+      {"CESKEPA)ZW THN' VYXOFQO)RA BDELYGMI)A.",8,80},
       {"DY/DX = 2A@X + 12@B",8,100},
-      {"U = 3,141592653589793238462643383279...",8,120},
+    }
+  },
+  {
+    id = "Greek Lower-Case & Math",
+    linestep = 6,
+    spacing = 4,
+    offset = 183,
+    samples = {
+      {"C_ESKEPA#ZW THN' VYXOFQO)RA B[D')ELYGMI)Ae.",8,80},
+      {"fP e= 3,141592653589793238462643383279f:",8,100},
+      {"f@-eX = S  Xf-Ie/fIe; = 1 + X + Xf-e2/2 + Xf-e3/6 + f:e",0,120},
+      {"f8|e0",39,117},
     }
   },
   {
     id = "Hebrew",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 273,
     samples = {
       {"                  16 16 :Z=T, Z=T UVMW",4,75},
@@ -245,8 +257,8 @@ LANG={
   },
   {
     id = "Hebrew Bold",
-				linestep = 7,
-				spacing = 5,
+    linestep = 7,
+    spacing = 5,
     offset = 279,
     samples = {
       {"                  16 16 :Z=T, Z=T UVMW",4,75},
@@ -257,9 +269,9 @@ LANG={
   },
   {
     id = "Runic",
-				linestep = 7,
-				spacing = 5,
-    offset = 183,
+    linestep = 7,
+    spacing = 5,
+    offset = 439,
     samples = {
       {"HOW I WANT A DRINK, ALCOHOLIC OF COURSE,|  AFTER THE HEAVY LECTURES INVOLVING|  QUANTUM MECHANICS..",0,62},
       {"JACKDAWS LOVE MY BIG SPHINX OF QUARTZ.",0,88},
@@ -269,8 +281,8 @@ LANG={
   },
   {
     id = "Hiragana",
-				linestep = 8,
-				spacing = 6,
+    linestep = 8,
+    spacing = 6,
     offset = 359,
     samples = {
       {"+' 0 5' : ? D I' N Q) V",0,70},
@@ -281,17 +293,17 @@ LANG={
       {",|U|D|@|H|G|>",230,70},
       {";'|R|A_|S|W(",219,70},
       {"V|0|P|:|T|9",208,70},
-						{"<|B|?|Q)|K(",197,70},
-						{"-|Y|C|/(|2|P|I'",186,70},
-						{"3|F'|4|.|=",175,70},
-						{"+'|5'|1|O|L|J|6",164,70},
-						{"Z`^_('$|E|M(|8|7)",153,70},
+      {"<|B|?|Q)|K(",197,70},
+      {"-|Y|C|/(|2|P|I'",186,70},
+      {"3|F'|4|.|=",175,70},
+      {"+'|5'|1|O|L|J|6",164,70},
+      {"Z`^_('$|E|M(|8|7)",153,70},
     }
   },
   {
     id = "Katakana",
-				linestep = 8,
-				spacing = 6,
+    linestep = 8,
+    spacing = 6,
     offset = 353,
     samples = {
 --       akasatanahamayarawa
@@ -303,17 +315,17 @@ LANG={
       {",|U|D|@|H|G|>",230,70},
       {";|R|A|S|W",219,70},
       {"V|0|P|:(|T|9",208,70},
-						{"<|B|?|Q|K",197,70},
-						{"-|Y|C|/|2|P|I",186,70},
-						{"3|F|4|.|=",175,70},
-						{"+|5|1|O|L|J|6",164,70},
-						{"Z|E|M|8|7)",153,70},
+      {"<|B|?|Q|K",197,70},
+      {"-|Y|C|/|2|P|I",186,70},
+      {"3|F|4|.|=",175,70},
+      {"+|5|1|O|L|J|6",164,70},
+      {"Z|E|M|8|7)",153,70},
     }
   },
   {
     id = "Basic Kanji and Punctuation",
-				linestep = 8,
-				spacing = 6,
+    linestep = 8,
+    spacing = 6,
     offset = 433,
     samples = {
       {" 2B^[_2/#+7O(]|A   5|B^[_   6|C   7|D 1 8|E 2 9|F'^[`]_ 3 1+|G 4 1+1",0,64},
@@ -352,8 +364,8 @@ function buttons(idx)
     ID = ID<#LANG and ID+1 or 0
   end
   if ID == 0 then
-		  return
-		end
+    return
+  end
 
   if btnp(0) and idx.i>=idx.w then
     idx.i = idx.i - idx.w
@@ -444,6 +456,7 @@ end
 function showsamples()
   for _,s in pairs(LANG[ID].samples) do
     lbprint(s[1],s[2],s[3])
+    LBFONTSTART = LANG[ID].offset
   end
 end
 
@@ -459,20 +472,20 @@ function TIC()
     showusage()
     showsamples()
   else
-				LBLINESTEP  = 7
+    LBLINESTEP  = 7
     LBSPACEWIDTH= 5
-		  lbprint("aPRIV/'T, SV/'T;",40,100)
-		  lbprint("bPRIVET, MIR;",20,20)
-		  lbprint("c/HOLA, MUNDO;",60,60)
-		  lbprint("dHELLO, WORLD;",120,35)
-		  lbprint("eGEIA) SOY, KO'SME;",110,80)
-		  lbprint("g;OL(VJ OVL(W",170,110)
-		  lbprint("iDUkK:iVkKiS>k-",160,15)
-				LBLINESTEP  = 8
-		  lbprint("j4|X|@|;'|D|k,j|8|0|,|k;",10,45)
+    lbprint("aPRIV/'T, SV/'T;",40,100)
+    lbprint("bPRIVET, MIR;",20,20)
+    lbprint("c/HOLA, MUNDO;",60,60)
+    lbprint("dHELLO, WORLD;",120,35)
+    lbprint("eGEIA) SOY, KO'SME;",110,80)
+    lbprint("g;OL(VJ OVL(W",170,110)
+    lbprint("iDUkK:iVkKiS>k-",160,15)
+    LBLINESTEP  = 8
+    lbprint("j4|X|@|;'|D|k,j|8|0|,|k;",10,45)
     if time()//500%2==0 then
-  		  lbprint("cPRESS S TO START",70,125)
-				end
+      lbprint("cPRESS S TO START",70,125)
+    end
   end
   buttons(IDX[MODE])
 end
