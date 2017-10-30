@@ -32,13 +32,13 @@ See https://tic.computer/play?cart=263 to try them in action.
 | Katakana | Hiragana | Other | 
 |----------|----------|-------|
 | ![Katakana font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/japanese_katakana.png?raw=true) | ![Hiragana font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/japanese_hiragana.png?raw=true) | ![Japanese Other font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/japanese_other.png?raw=true) |
-|		ア		イ		ウ		エ		オ		カ		キ		ク	|		あ		い		う		え		お		か		き		く | | 
-|		ケ		コ		サ		シ		ス		セ		ソ		タ |		け		こ		さ		 し		す		せ		そ		た | | 
-|		チ		ツ		テ		ト		ナ		ニ		ヌ		ネ |		ち		つ		て		と		な		に		ぬ		ね| | 
-|		ノ		ハ		ヒ		フ		ヘ		ホ		マ		ミ |		の		は		ひ		ふ		へ		ほ		ま		み| | 
-|		ム		メ		モ		ヤ		ユ		ヨ		ラ		リ |		む		め		も		や		ゆ		よ		ら		り	| | 
-|		ル		レ		ロ		ワ		ヲ		ン|		る		れ		ろ		わ		を		ん | |
-|		Archaic characters: ヰ		ヱ|		Archaic characters: ゐ		ゑ| |
+|  ア  イ  ウ  エ  オ  カ  キ  ク |  あ  い  う  え  お  か  き  く | Numerals: 〇  一  二  三  四  五  六  七  八  九  十  百  千  万  分| 
+|  ケ  コ  サ  シ  ス  セ  ソ  タ |  け  こ  さ   し  す  せ  そ  た | Days of week: 日  月  火  水  木  金  土 | 
+|  チ  ツ  テ  ト  ナ  ニ  ヌ  ネ |  ち  つ  て  と  な  に  ぬ  ね| Directions and size: 上  下  右  左  大  中  小 | 
+|  ノ  ハ  ヒ  フ  ヘ  ホ  マ  ミ |  の  は  ひ  ふ  へ  ほ  ま  み| Simple movement kanji: 入  出  止| 
+|  ム  メ  モ  ヤ  ユ  ヨ  ラ  リ |  む  め  も  や  ゆ  よ  ら  り | Other: 年  円| 
+|  ル  レ  ロ  ワ  ヲ  ン|  る  れ  ろ  わ  を  ん | Extra kana chars: ・  ー  っ  ッ  ゜  ゛ |
+|  Archaic characters: ヰ  ヱ|  Archaic characters: ゐ  ゑ| Punctuation: 。  、  「  」  ?  !  |
 
 
-			  	n 	  	  	  	 
+  	  	n 	  	  	  	 
