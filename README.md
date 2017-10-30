@@ -7,10 +7,10 @@ Key ideas of those fonts:
 
 See https://tic.computer/play?cart=263 to try them in action.
 
-## Ciryllic fonts
+## Cyrillic fonts
 | Normal | Bold |
 |--------|------|
-| ![Ciryllic font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/ciryllic.png?raw=true) | ![Ciryllic Bold font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/ciryllic_bold.png?raw=true) |
+| ![Cyrillic font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/ciryllic.png?raw=true) | ![Cyrillic Bold font](https://github.com/lolbot-iichan/fonts_tic80/blob/master/sheets/ciryllic_bold.png?raw=true) |
 
 ## Latin fonts
 | Normal | Bold |
